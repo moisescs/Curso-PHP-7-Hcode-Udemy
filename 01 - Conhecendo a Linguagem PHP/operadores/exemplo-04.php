@@ -13,7 +13,7 @@ var_dump($a < $b);
 echo "<br>";
 var_dump($a == $b);
 
-//Igualdade de identidades compara o valor eo tipo de dados
+//Igualdade de identidades compara o valor e o tipo de dados
 echo "<br>";
 var_dump($a === $b);
 

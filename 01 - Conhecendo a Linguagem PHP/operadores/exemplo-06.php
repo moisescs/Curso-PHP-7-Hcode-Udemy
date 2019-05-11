@@ -1,7 +1,7 @@
 <?php
 //php7 null coalescing operator
 $a = NULL;
-$b = 8;
+$b = NULL;
 $c = 10;
 
 echo $a ?? $b ?? $c;

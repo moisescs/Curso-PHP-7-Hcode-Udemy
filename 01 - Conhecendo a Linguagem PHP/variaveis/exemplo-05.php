@@ -17,5 +17,6 @@ function teste2(){
 } 
 
 teste();
+echo "<br/>";
 teste2();
 ?>

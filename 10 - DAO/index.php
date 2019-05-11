@@ -30,6 +30,9 @@ $usuario = new Usuario();
 $usuario->login("root","!@#$");
 echo $usuario;
 
-
+//Insert de um novo usuário
+//$usuario = new Usuario("New user", "new@pass");
+//$usuario->insert();
+//echo $usuario;
 
 ?>

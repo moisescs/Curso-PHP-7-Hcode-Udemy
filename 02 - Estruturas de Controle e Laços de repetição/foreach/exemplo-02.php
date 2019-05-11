@@ -1,6 +1,7 @@
-<form>
-    
+<form method="post">
+    Nome:
     <input type="text" name="nome"/>
+    Data de Nascimento:
     <input type="date" name="nascimento"/>
     <input type="submit" value="Ok"/>
     
@@ -8,8 +9,8 @@
 
 <?php
 
-if(isset($_GET)){
-    foreach($_GET as $key => $value){
+if(isset($_POST)){
+    foreach($_POST as $key => $value){
         
         echo "Nome do campo: ".$key."<br/>";
         echo "Valor do campo: ".$value."<br/>";
